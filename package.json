@@ -1,0 +1,30 @@
+{
+  "name": "webapp-template",
+  "version": "0.0.1",
+  "description": "My personal template for a web app",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimLeach635/webapp-template.git"
+  },
+  "keywords": [
+    "webapp",
+    "template",
+    "node"
+  ],
+  "author": "Tim Leach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimLeach635/webapp-template/issues"
+  },
+  "homepage": "https://github.com/TimLeach635/webapp-template#readme",
+  "devDependencies": {
+    "esbuild": "^0.19.2",
+    "typescript": "^5.2.2"
+  }
+}
